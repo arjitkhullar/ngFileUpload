@@ -1,0 +1,21 @@
+{
+  "name": "uploadecomponent",
+  "version": "1.0.0",
+  "description": "an upload component",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm install && node server.js"
+  },
+  "repository": "https://github.com/arjitkhullar/ngFileUpload",
+  "author": "arjitkhullar@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-file-upload": "^2.5.0",
+    "body-parser": "1.14.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "multer": "^1.3.0"
+  }
+}
